@@ -1,25 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    //Variable Declaration
-    char name[50];
-    int age;
-    float gpa;
+    char name[] = "John Sinyangwe";
+    int age = 21;
+    float gpa = 4.9;
 
-    //Input Section
-    printf("Enter your name: ");
-    fgets(name, sizeof(name), stdin);
-
-    printf("Enter your age: ");
-    scanf("%d", &age);
-
-    printf("Enter your GPA: ");
-    scanf("%f", &gpa);
-
-    //Display the output
-    printf("\nName: %s", name);
-    printf("Age: %d\n", age);
-    printf("GPA: %.1f\n", gpa);
+    printf("=================================\n");
+    printf("        STUDENT PROFILE\n");
+    printf("=================================\n");
+    printf("Name : %s\n", name);
+    printf("Age  : %d years\n", age);
+    printf("GPA  : %.1f \n", gpa);
+    printf("=================================\n");
+    printf("      Program has ended\n");
+    printf("=================================\n");
 
     return 0;
 }

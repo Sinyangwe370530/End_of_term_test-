@@ -14,7 +14,8 @@ This is a simple C program that displays a student's profile, including their na
 ## Student Information
 - **Name:** John Sinyangwe  
 - **Student Number:** 202510123851  
-- **Intake:** April 2025  
+- **Intake:** April 2025
+- Promotion Exam
 
 ---
 
